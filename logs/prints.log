@@ -1,0 +1,3 @@
+18:56:29.884 [TestNG-tests-1] INFO  resources.Base - Driver is Closed
+18:56:30.275 [TestNG-tests-2] INFO  resources.Base - Switch to Frame
+18:56:32.702 [TestNG-tests-2] INFO  resources.Base - Driver is Closed

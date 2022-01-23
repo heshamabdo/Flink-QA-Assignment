@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Weather.Shopping.Listeners"/>
+  </listeners>
+  <test thread-count="2" name="Chrome Test(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Weather.Shopping.EndToEndBuyProduct">
+        <methods>
+          <include name="teardown"/>
+          <include name="initilize"/>
+          <include name="addToCartProduct"/>
+          <include name="checkout"/>
+        </methods>
+      </class> <!-- Weather.Shopping.EndToEndBuyProduct -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
+  <test thread-count="2" name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Weather.Shopping.EndToEndBuyProduct">
+        <methods>
+          <include name="teardown"/>
+          <include name="initilize"/>
+          <include name="addToCartProduct"/>
+          <include name="checkout"/>
+        </methods>
+      </class> <!-- Weather.Shopping.EndToEndBuyProduct -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

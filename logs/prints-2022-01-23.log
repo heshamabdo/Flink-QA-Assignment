@@ -1,0 +1,19 @@
+18:56:06.100 [TestNG-tests-1] INFO  resources.Base - Lowest Almond Price on Page is: 128
+18:56:06.220 [TestNG-tests-1] INFO  resources.Base - Lowest Almond Product added in cart successfully
+18:56:12.902 [TestNG-tests-2] INFO  resources.Base - Driver firefox is Initialized
+18:56:13.003 [TestNG-tests-2] INFO  resources.Base - Current Temerature in applciation is: 6
+18:56:18.704 [TestNG-tests-1] INFO  resources.Base - Click on Cart
+18:56:18.760 [TestNG-tests-2] INFO  resources.Base - Selecting Moisturizers
+18:56:19.057 [TestNG-tests-2] INFO  resources.Base - Lowest Aloe Price on Page is: 215
+18:56:19.097 [TestNG-tests-1] INFO  resources.Base - Switch to Frame
+18:56:19.327 [TestNG-tests-2] INFO  resources.Base - Lowest Aloe Product added in cart successfully
+18:56:19.328 [TestNG-tests-2] INFO  resources.Base - Lowest Almond Price on Page is: 128
+18:56:19.622 [TestNG-tests-2] INFO  resources.Base - Lowest Almond Product added in cart successfully
+18:56:20.049 [TestNG-tests-1] INFO  resources.Base - Enter Email ID
+18:56:20.099 [TestNG-tests-1] INFO  resources.Base - Enter Card Number
+18:56:20.147 [TestNG-tests-1] INFO  resources.Base - Enter Card Expiry Month and Year
+18:56:20.333 [TestNG-tests-1] INFO  resources.Base - Enter Card CVC
+18:56:20.469 [TestNG-tests-1] INFO  resources.Base - Enter ZipCode
+18:56:20.677 [TestNG-tests-1] INFO  resources.Base - Click on Final Pay Button
+18:56:28.500 [TestNG-tests-1] INFO  resources.Base - Payment Confirmation
+18:56:29.880 [TestNG-tests-2] INFO  resources.Base - Click on Cart
